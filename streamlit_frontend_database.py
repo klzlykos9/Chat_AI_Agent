@@ -40,7 +40,7 @@ add_thread(st.session_state['thread_id'])
 
 # **************************************** Sidebar UI *********************************
 
-st.sidebar.title('KLZ Chatbot')
+st.sidebar.title('KLZ ChatAgent')
 
 if st.sidebar.button('New Chat'):
     reset_chat()
